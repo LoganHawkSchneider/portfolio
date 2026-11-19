@@ -1,0 +1,279 @@
+[33m5357337[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mv5[m[33m, [m[1;31morigin/v5[m[33m, [m[1;31morigin/HEAD[m[33m)[m Deleted via Quartz Syncer
+[33m115ad06[m Initial Quartz setup
+[33m7beb261[m Quartz sync: Nov 18, 2026, 11:18 PM
+[33m1931eee[m Quartz sync: Nov 18, 2026, 11:18 PM
+[33m7cfb079[m Merge pull request #2631 from jackyzha0/dev-mode/lockfile-explorer-1-0-4
+[33mbdc1c71[m[33m ([m[1;31morigin/dev-mode/lockfile-explorer-1-0-4[m[33m)[m chore: lockfile for explorer 1.0.4 (shrinks before recent notes in a one-screen sidebar)
+[33mbeeeed4[m Merge pull request #2629 from jackyzha0/dev-mode/lockfile-require-5-1
+[33m0ab525c[m[33m ([m[1;31morigin/dev-mode/lockfile-require-5-1[m[33m)[m chore: lockfile for the plugins that now require Quartz 5.1
+[33m2ec28dd[m[33m ([m[1;33mtag: [m[1;33mv5.1.0[m[33m)[m Merge pull request #2598 from jackyzha0/changeset-release/v5
+[33mda4fb9b[m chore: release Quartz
+[33mb84c323[m Merge pull request #2628 from jackyzha0/dev-mode/lockfile-manifests
+[33mba5a9a6[m[33m ([m[1;31morigin/dev-mode/lockfile-manifests[m[33m)[m chore: lockfile for folder-page 1.0.4, tag-page 1.0.5 and latex 1.0.2 (manifests declare all options)
+[33m08e9470[m Merge pull request #2627 from jackyzha0/dev-mode/templates-allowlist
+[33mf520811[m[33m ([m[1;31morigin/dev-mode/templates-allowlist[m[33m)[m test(templates): drop the allowlist; recent-notes title and themes variation are declared in their manifests
+[33m7e45c54[m Merge pull request #2626 from jackyzha0/dev-mode/lockfile-roam
+[33m922bb80[m Merge pull request #2625 from jackyzha0/dev-mode/template-options
+[33m2a4ab67[m[33m ([m[1;31morigin/dev-mode/lockfile-roam[m[33m)[m chore: lockfile for roam 1.1.0 (works alongside OFM)
+[33m7236249[m[33m ([m[1;31morigin/dev-mode/template-options[m[33m)[m fix(templates): GFM before OFM (30/40) in every template; drop parseArrows, which OFM does not have; test the templates
+[33m6e91a00[m Merge pull request #2624 from jackyzha0/dev-mode/lockfile-tag-page-types
+[33medb64cd[m[33m ([m[1;31morigin/dev-mode/lockfile-tag-page-types[m[33m)[m chore: lockfile for tag-page 1.0.4 and types 1.3.1
+[33mbe42e8e[m Merge pull request #2623 from jackyzha0/dev-mode/docs-5-1
+[33md8794ea[m Merge pull request #2622 from jackyzha0/dev-mode/option-schema
+[33maf5246c[m[33m ([m[1;31morigin/dev-mode/docs-5-1[m[33m)[m docs: Quartz 5.1 — upgrade notes, what's new, plugin manifest reference, plugin development, CLI, configuration, features and plugin pages
+[33m85d2b43[m[33m ([m[1;31morigin/dev-mode/option-schema[m[33m)[m fix(plugins): a disabled dependency is a warning, not a missing plugin that fails the build
+[33mdb6e72f[m fix(plugins): read the flat optionSchema first-party plugins ship (type enum + values); accept values of the default type
+[33me8a192e[m fix(capabilities): quartzStaticUrl and quartzPrefetch are core globals
+[33me41ebf6[m fix(plugins): option checks read quartz.optionSchema as well as configSchema
+[33m33ff9ea[m Merge pull request #2621 from jackyzha0/dev-mode/prefetch
+[33mfa89733[m Merge pull request #2620 from jackyzha0/dev-mode/builtin-dependencies
+[33m6210f28[m[33m ([m[1;31morigin/dev-mode/prefetch[m[33m)[m feat: prefetching (configuration.prefetch: viewport by default, hover, off), with and without SPA routing
+[33mac8cc4b[m[33m ([m[1;31morigin/dev-mode/builtin-dependencies[m[33m)[m fix(plugins): dependencies on plugins built into core are satisfied by the built-in
+[33m0770178[m Merge pull request #2619 from jackyzha0/dev-mode/lockfile-path-fixes
+[33m8854aeb[m[33m ([m[1;31morigin/dev-mode/lockfile-path-fixes[m[33m)[m chore: lockfile for alias-redirects 1.0.3 and created-modified-date 1.0.3 (Windows path fixes)
+[33mbebabb1[m Merge pull request #2618 from jackyzha0/dev-mode/windows-local-sources
+[33m7d255c3[m[33m ([m[1;31morigin/dev-mode/windows-local-sources[m[33m)[m fix(links): shorten pretty link text with path.posix (Windows also cut at a backslash)
+[33mf5ef8f7[m fix(plugins): recognise .\ and ..\ local plugin sources (Windows spelling)
+[33me7da9ce[m Merge pull request #2616 from WhoAmI-WhereAmI/fix/npm-plugin-index-windows
+[33m28581e8[m test: npm plugins are found through import.meta.resolve; changeset for the Windows plugin index fix
+[33m4ff86a7[m Merge pull request #2617 from jackyzha0/dev-mode/link-facts
+[33m7688df6[m[33m ([m[1;31morigin/dev-mode/link-facts[m[33m)[m chore: lockfile for utils 1.2.0 and Obsidian Flavored Markdown 2.1.3 (rehype-obsidian 1.3.0, remark-obsidian 2.2.1)
+[33mfc86552[m fix(links): undecodable link paths are external, NFC paths, missing images show their path (Obsidian 1.15.0)
+[33m0f294f7[m Fix npm plugin index generation on Windows
+[33m3c7cba4[m Merge pull request #2615 from jackyzha0/dev-mode/lockfile-bases-1.2.1
+[33m4683f8b[m[33m ([m[1;31morigin/dev-mode/lockfile-bases-1.2.1[m[33m)[m chore: lockfile for BasesPage 1.2.1
+[33m8be3806[m Merge pull request #2614 from jackyzha0/dev-mode/lockfile-bases-1.2
+[33m98cfbfa[m[33m ([m[1;31morigin/dev-mode/lockfile-bases-1.2[m[33m)[m chore: lockfile for BasesPage 1.2.0; 5.1 notes describe Bases as they now behave (file.name as in Obsidian)
+[33m6c91c6d[m Merge pull request #2613 from jackyzha0/dev-mode/lockfile-external-preact
+[33mf687f58[m[33m ([m[1;31morigin/dev-mode/lockfile-external-preact[m[33m)[m chore: lockfile for the plugin releases that use Quartz's preact
+[33m03996bb[m Merge pull request #2612 from jackyzha0/dev-mode/lockfile-publish-filters
+[33mf309807[m Merge pull request #2611 from jackyzha0/dev-mode/virtual-page-filters
+[33m483b762[m[33m ([m[1;31morigin/dev-mode/lockfile-publish-filters[m[33m)[m chore: lockfile for explicit-publish, encrypted-pages, unlisted-pages 1.1.0, bases-page 1.1.2, types 1.3.0
+[33mfe6a3ea[m[33m ([m[1;31morigin/dev-mode/virtual-page-filters[m[33m)[m feat: publish filters and virtualPageHtmlPlugins for pages rendered from files (bases-page#11)
+[33mdf7e018[m Merge pull request #2610 from jackyzha0/dev-mode/lockfile-5.1-plugins
+[33m0787f97[m Merge pull request #2607 from jackyzha0/dev-mode/content-errors
+[33mb29db43[m Merge pull request #2609 from jackyzha0/dev-mode/esbuild-exit
+[33m214f478[m Merge pull request #2608 from jackyzha0/dev-mode/heading-alias-transclusion
+[33m66f2578[m Merge pull request #2606 from jackyzha0/dev-mode/folder-virtual-pages
+[33maddf542[m[33m ([m[1;31morigin/dev-mode/content-errors[m[33m)[m test: skip the permission tests on Windows, which ignores POSIX permission bits
+[33m01bc5c5[m[33m ([m[1;31morigin/dev-mode/lockfile-5.1-plugins[m[33m)[m chore: lockfile for the plugin releases (utils 1.1.1, GitHubFlavoredMarkdown 2.1.0, BasesPage 1.1.0, …); drop github-slugger
+[33m60c8318[m[33m ([m[1;31morigin/dev-mode/heading-alias-transclusion[m[33m)[m chore: changeset names the GitHubFlavoredMarkdown release that marks Obsidian anchors (2.1.0)
+[33me3e3d5f[m fix: an unsupported frontmatter language option is a configuration error, not a content problem
+[33m28fcb64[m[33m ([m[1;31morigin/dev-mode/esbuild-exit[m[33m)[m fix: stop esbuild before exiting on a build error
+[33m99909dd[m fix: frontmatter holding a list instead of properties is a content problem
+[33m2ef60c6[m fix: header transclusion matches a heading's Obsidian-anchor alias
+[33mf8b5638[m fix: report unreadable files and non-property frontmatter as content problems; document quartzContent for plugins
+[33m913f9f0[m[33m ([m[1;31morigin/dev-mode/folder-virtual-pages[m[33m)[m fix: folder hierarchy includes file-backed virtual pages (.base, .canvas) so folder pages list them (#2576)
+[33m8a62b70[m Merge pull request #2604 from jackyzha0/dev-mode/lockfile-note-properties-1.1.1
+[33m22c18d1[m[33m ([m[1;31morigin/dev-mode/lockfile-note-properties-1.1.1[m[33m)[m chore(deps): note-properties 1.1.1 (refuses JavaScript frontmatter)
+[33me5332d4[m Merge pull request #2602 from jackyzha0/dev-mode/lockfile-ofm-2.1
+[33m9f9547e[m Merge pull request #2603 from jackyzha0/dev-mode/no-js-frontmatter
+[33mb2da325[m[33m ([m[1;31morigin/dev-mode/no-js-frontmatter[m[33m)[m fix: refuse JavaScript frontmatter instead of executing it; report invalid frontmatter as a content problem
+[33m986aa22[m[33m ([m[1;31morigin/dev-mode/lockfile-ofm-2.1[m[33m)[m chore: lockfile for obsidian-flavored-markdown 2.1.0 (highlights keep their formatting; coloured highlights)
+[33mec1d0b4[m Merge pull request #2601 from jackyzha0/dev-mode/async-generate
+[33meab5c53[m[33m ([m[1;31morigin/dev-mode/async-generate[m[33m)[m feat: page types may generate virtual pages asynchronously (#2575)
+[33m6b7bc28[m Merge pull request #2597 from jackyzha0/dev-mode/improvements
+[33me4ebd28[m[33m ([m[1;31morigin/dev-mode/improvements[m[33m)[m chore: ObsidianFlavoredMarkdown and GitHubFlavoredMarkdown 2.0; lockfile for the released plugins
+[33mb7998bb[m fix(styles): no horizontal scroll on phones (long words break, right sidebar wraps); docs: plugin tag page as tags/plugin/index.md
+[33medfa7f1[m ci(release): let GitHub create the release tag on the merged commit instead of pushing an unsigned annotated tag (#2455)
+[33mc24663f[m docs: running Quartz with Bun (bun run quartz …) (#2523)
+[33m5f50371[m docs(og-image): useGeneratedDescription and the description order (#2470)
+[33m6c6aaaa[m chore(deps): minimatch 11 (GHSA-g3hv-75wg-m249)
+[33m158a9b5[m docs: customizing components in v5 (#2444), footer message, theme colors vs configured colors (#2509), per-image styling via alt text and Markdown image sizes (#2494, #2505)
+[33m08c2857[m feat: layout.sidebars modes (fit, scroll, static) and a docs template
+[33m0778a9a[m docs(changeset): permalinked notes stay in their folder in navigation
+[33m1f19843[m feat: content trie places pages by file path, links by slug (permalinked notes stay in their folder)
+[33m15b8eef[m feat: permalinks as in Obsidian Publish — the note's address; its file path redirects there (#2572)
+[33m5b6de1f[m fix(cli): layout.position validation lists the same rendered slots as the schema (no "body")
+[33m3e4a50a[m fix(spa): resolve relative links and push the URL the page was actually served from (after redirects)
+[33m5507de3[m fix(i18n): French capitalisation of Vue graphique / Table des matières (#2513)
+[33m31bcb34[m ci(dependabot): no major bumps of plugin peer dependencies (preact, vfile, unified) (#2586)
+[33m671ca49[m chore(deps): sharp 0.35.5, source-map-js 1.2.2, toml 5 (security advisories)
+[33m0a475bd[m fix: layout.position schema matches the rendered positions; TUI install hint uses github:quartz-community/tui (#2435)
+[33m3103485[m fix(assets): match published (slugified) names, <object data>, srcset and encoded paths for publishAssets: referenced
+[33m63ea0b7[m fix(assets): only copy assets referenced by published pages (#2531)
+[33mab44263[m fix(cli): compare object-form plugin sources by content when detecting a changed source
+[33ma78706f[m fix: plugin install --from-config doesn't detect a changed pinned source
+[33m3eaf219[m fix(plugins): skip a dependency's peers when building a plugin
+[33m1b46441[m fix(plugins): match excludes by bare name, link local plugins' peers
+[33me44f2b0[m fix(plugins): quartz.ts overrides for npm and component plugins (#2565); one shared plugin index generator
+[33m76de283[m fix(analytics): write config values into generated scripts as JSON string literals (#2571)
+[33m981c64a[m Merge #2541: Configure PostHog init options (@vivekascoder)
+[33m4920dae[m Merge #2518: Feat: Allow custom Umami script names (@lfgberg)
+[33m7ffd3a8[m Merge #2582: docs: fix typos and dead links (@saksham10arora-dotcom)
+[33m774f763[m Merge #2578: docs: add DevBook to showcase (@grafanaKibana)
+[33m571dde2[m Merge #2542: docs(community): add Field Notes theme (@oswarren)
+[33mfb96a9d[m Merge #2481: docs: clarify ConditionalRender overrides (@coyaSONG)
+[33m114ffc4[m Merge #2567: fix: clear stale popovers on bfcache restore (@Shadorux)
+[33m73a06a0[m Merge #2584: fix(analytics): count GoatCounter pageviews once (@IndelibleVivi)
+[33m3111df2[m Merge #2524: fix(dev): derive LiveReload WebSocket protocol from the page (@VXNCXNX)
+[33m96f62ec[m Merge #2536: fix: remove stale pages after incremental deletes (@ZluxYao)
+[33m5c58129[m Merge #2535: build: improve polling for mounted content (@ZluxYao)
+[33m8f4a816[m Merge #2534: build: clear processed incremental changes (@ZluxYao)
+[33mb6bcd4f[m Merge #2529: perf: memoize the mkdir in emitter write() (@jackyzha0)
+[33m295e822[m Merge #2528: fix: mark generated 404 page as unlisted (@paulTroster)
+[33m9fa4fa7[m Merge #2486: fix(build): clear output dir contents rather than rmdir (@McCio)
+[33m7cf595d[m Merge #2533: fix: make asset deletion idempotent (@ZluxYao)
+[33m096350c[m Merge #2484: fix(assets): silence ENOENT races in watch mode (@McCio)
+[33m6e87fda[m docs: fontOrigin local loads no fonts — how to provide them with @font-face (#2441)
+[33m8eae6a1[m fix(security): run git/npm without a shell, validate refs/commits/URLs/package names, escape generated imports (#2571); fetch pinned commits on update (#2559)
+[33m3c18be8[m feat: quartz.deprecated plugin marker (warned at build, add, doctor); drop deprecated hard-line-breaks from default config and templates
+[33m67ae68e[m docs: ObsidianFlavoredMarkdown preset, line breaks, inline footnotes; Obsidian math rules
+[33mc84f348[m feat(core): plugin assets (externalResources().assets → static/plugins/, window.quartzStaticUrl)
+[33m6e9f5c4[m Merge branch 'pr-2588-pele-docs' into dev-mode/improvements
+[33md66968c[m feat(cli): upgrade shows release notes and runs the new version's checks; skip built-in plugins in install/restore; bug report asks for quartz info
+[33m50203da[m feat(core): report plugins that fail to load, fail CI builds on them; import npm plugin entry modules
+[33mea75b1b[m feat(cli): fail builds in CI on plugins that don't support this Quartz version
+[33m1cc1439[m docs: versioning and plugin compatibility, reading build output, ctx.contentIndex, quartz info
+[33mf768b1e[m ci: version Quartz with changesets (release PR, vX.Y.Z tags, GitHub releases) and changesets for unreleased work
+[33m18deab1[m feat(core): ctx.contentIndex, plugin error attribution, end-of-build diagnostics, enforced plugin quartzVersion, quartz info
+[33m13a3d18[m docs: built-in processing (frontmatter, links, drafts, content index), extendContentIndex, migration
+[33m052ebb2[m feat(cli): built-in aware plugin commands, plugin doctor --fix migration, migrated default config and templates
+[33m3b8095b[m feat(core): built-in frontmatter, links, drafts and content index (configuration.*), absorbing crawl-links/remove-draft/content-index entries; extendContentIndex hook
+[33me49024c[m fix(layout): working conditions/overrides, layout warnings and --verbose report
+[33md2c95da[m feat(components): attribute rendered plugin components
+[33m3406725[m feat(plugins): declared plugin capabilities + graceful fetchData
+[33md89a8c7[m feat(cli): harden plugin management workflow
+[33me1ab126[m docs: shorten Pele opt-in copy
+[33me31990a[m docs: document opt-in Pele diagram renderer
+[33mf3e02af[m docs: note Pele as the Mermaid diagram renderer
+[33m9eebd80[m fix(analytics): count GoatCounter pageviews once
+[33m7e449b8[m docs: fix typos and dead links
+[33m09097db[m fix(config): order github-flavored-markdown before obsidian-flavored-markdown
+[33m4616463[m Update DevBook link to Software Engineering Notes
+[33mfbabc76[m docs: add DevBook to showcase
+[33m4ef1814[m fix: clear stale popovers on bfcache restore
+[33m97a2d05[m chore(deps): bump the quartz-ecosystem group with 2 updates (#2561)
+[33m5e78078[m docs(cli): --remoteDevHost sets a hostname, not a URL
+[33mb080c21[m fix(dev): derive LiveReload WebSocket protocol from the page
+[33m3dff48b[m fix: regenerate lockfile for created-modified-date@1.0.1
+[33m5519ffe[m chore(deps): bump the production-dependencies group across 1 directory with 6 updates (#2554)
+[33mafe7e68[m ci: isolate typescript into its own dependabot group
+[33m4bfe60a[m ci: split dependabot groups and auto-merge ecosystem updates
+[33m9be7f42[m fix: regenerate lockfile against published 1.0.0 manifests
+[33mf8b1a4d[m feat!: adopt 1.0.0 ecosystem
+[33m233a975[m chore: update lockfile for latest plugin releases
+[33mf1fba3f[m fix(schema): allow null for analytics field (#2485)
+[33m2176a4a[m docs(community): add Field Notes theme
+[33m75f485b[m Potential fix for pull request finding
+[33m4ef8d6c[m feat: configure PostHog init options
+[33m50227ba[m fix: re-emit pages after slug ownership changes
+[33m254af5d[m fix: remove stale pages after incremental deletes
+[33m762f763[m build: improve polling for mounted content
+[33mf5fa234[m fix: clear processed incremental changes
+[33m1930712[m fix: make asset deletion idempotent
+[33m041de1c[m[33m ([m[1;31morigin/perf/memoize-write-mkdir[m[33m)[m perf: memoize the mkdir in emitter write()
+[33m631f6b4[m fix: mark generated 404 page as unlisted
+[33m075afd3[m fix: import ContentDetails from @quartz-community/content-index instead of generated .quartz/plugins
+[33m9908843[m Allow custom umami script names
+[33m74b3fc9[m chore: clean up dev-mode artifact
+[33m7076a89[m chore: formatting
+[33m507ad7f[m chore: regenerate package-lock.json
+[33m41864a0[m refactor: replace createRequire with import.meta.resolve in config-loader and gitLoader
+[33m508f73a[m feat: replace CJS require with static imports, add comprehensive layout system tests
+[33m6f27207[m chore: update lockfile for latest plugin releases
+[33m89fb2af[m chore: update lockfile for latest plugin releases
+[33ma121fd2[m feat: unify layout slot architecture - make header/footer configurable positions, footer as array, add defaultPosition fallback, add tests, update docs
+[33me37b488[m chore: update lockfile for latest plugin releases
+[33me22d444[m chore: update lockfile for @quartz-themes/core@1.1.0
+[33mc2e1a61[m chore: update lockfile for @quartz-themes/core@1.0.3
+[33m754058a[m chore: updated dependencies
+[33m2a5e3ae[m chore: package-lock.json
+[33m94fcabb[m feat: add @quartz-themes/core to config and templates
+[33m26a5a86[m feat: add @quartz-themes/core as a dependency
+[33m326bc49[m chore: update lockfile for crawl-links@0.1.1, bases-page@0.2.2
+[33m3c87268[m chore: update lockfile for utils@0.1.1, ofm@0.1.2, bases-page@0.2.1
+[33ma791a4f[m fix: disable font ligatures on code blocks (#2428)
+[33m581f670[m fix: decouple Head.tsx from og-image plugin import (#2495)
+[33m555b2ba[m docs: add npm plugin specifier migration guide
+[33m3d99dca[m style: fix whitespace in docs/hosting.md
+[33m966307e[m style: format docs/hosting.md and loader/index.ts
+[33mebdbb3d[m chore: keep legacy-peer-deps (required for 44 plugins with varying peer ranges)
+[33m4978591[m chore: pin plugin dependencies to semver ranges
+[33me8ccb79[m chore: updated package-lock.json
+[33m11b9960[m feat: migrate to npm specifiers with type-safe plugin index
+[33m4b7ecb9[m revert: restore github: specifiers in default config and templates
+[33ma71cbfb[m fix: use npm install in Dockerfile and copy .npmrc for peer dep config
+[33mb6939da[m fix: use npm install in all CI workflows for lockfile compatibility
+[33m6fdeaef[m fix: use npm install instead of npm ci in deploy
+[33meefff26[m chore: retrigger deploy after lockfile fix
+[33m7ed01dd[m fix: add legacy-peer-deps for plugin peer dependency conflicts
+[33mfe1f1d3[m fix: add npm plugin dependencies and fix fonts package name
+[33m57094a8[m fix: make quartz.lock.json optional in Dockerfile
+[33m97eea3e[m feat: migrate default config and templates to npm specifiers
+[33mab8e773[m revert: do not gitignore quartz.config.yaml (user config file)
+[33mf45b9d4[m chore: gitignore quartz.config.yaml (user-generated)
+[33maf583c1[m chore: remove dev-mode config
+[33mde21613[m style: format loader files
+[33m69571de[m chore: remove dev-mode local config (should not be committed)
+[33m5b34917[m feat: support npm scoped package specifiers for plugins
+[33me56ffae[m fix(build): clear output dir contents rather than rmdir, fixes EBUSY on bind mounts
+[33mb4cb37d[m fix(assets): silence ENOENT races in watch mode
+[33mca70ffd[m docs: clarify ConditionalRender overrides
+[33m9cf87ff[m chore(deps): bump the ci-dependencies group across 1 directory with 9 updates (#2426)
+[33me54b89f[m fix(ci): add git install to Dockerfile (#2443)
+[33me12ca11[m fix: watch quartz.config.yaml during serve (#2448)
+[33m92a4a48[m fix: callouts overlapping explorer
+[33m9e74db6[m docs: clarified and extended installation guide
+[33m25d89ff[m chore: updated plugins
+[33mdecbd0a[m chore: updated plugins
+[33m87083fa[m docs: updated fonts configuration
+[33m58593c7[m docs: added documentation for fonts
+[33m8a79f59[m chore: configure fonts plugin in templates
+[33m2000295[m feat: added fonts plugin
+[33mc5bbc92[m docs: updated migration guide and alias-redirect options
+[33mb2f1dad[m fix(alias-redirect): emit original filepath casing as redirect
+[33m81db804[m fix(themes): callouts and layout issues
+[33m9737bce[m fix(slugs): remove obsidian-importer known invalid file characters from slugs
+[33m951dfee[m fix(i18n): explorer/graph missing mapping
+[33mafe98e6[m fix: excalidraw panning on mobile and .jxl support
+[33mf15aa00[m fix: allow updating when repository is generated from template
+[33m9e4d451[m fix: anchor links without alias follow obsidian reading mode
+[33m3138a88[m chore: updated layouts to include table of contents
+[33mdb5aca2[m fix: apply default position when installing plugins
+[33mdd1b36c[m fix: recent notes default date type
+[33m4579e49[m test: regression tests for junctions
+[33m882d3b3[m fix: fall back to junctions on windows
+[33m667d487[m fix: re-render graph on mode change
+[33m36b3542[m fix: block link casing
+[33mb24f2a5[m test: add regression tests for baseurl in serve mode
+[33mad685b8[m fix: use correct baseurl in serve mode
+[33m2862ec7[m fix: anchor heading links
+[33m9ac5d6e[m chore: update all plugins to latest version
+[33m399cdd8[m fix: display the quartz version in the footer
+[33m336b3ea[m fix: excalidraw quartz-themes interactions
+[33m24975c6[m chore: updated plugins
+[33m4a06ee6[m docs: replaced excalidraw note in plugin table
+[33mcbe101d[m chore: updated configuration templates
+[33m29dea35[m chore: updated plugins
+[33m257f004[m fix(bases): properly handle mixed-case tags
+[33m51ba218[m docs: cleanup
+[33m2dc58a3[m fix: bases table view grouping sorting
+[33m22fc3b5[m chore: formatting
+[33md641421[m docs: convert repository frontmatter values to markdown links
+[33mc837425[m docs: inline bases into markdown
+[33mcf28741[m docs: add description frontmatter to all plugin docs for base views
+[33mcce45e0[m docs: add repository, enabled, required frontmatter to all plugin docs
+[33m38395a1[m docs: replace manual plugin tables with inline .base files
+[33m228218e[m fix: border-radius in board view
+[33m27639d5[m docs: formatting
+[33m97472eb[m chore: point v5 to quartz.jzhao.xyz
+[33m9f7caa9[m chore: updated og-image
+[33mee683e0[m docs: add What's New in Quartz 5 page for release
+[33med0f27c[m fix: move ExternalPlugin overrides before loadQuartzConfig in quartz.ts docs
+[33md45b7a7[m fix(dispatcher): skip undefined components in collectComponents (#2404)
+[33mc4b0145[m docs: formatting
+[33m629efaf[m chore: updated plugins
+[33meb53936[m chore: update lockfile with search and graph plugin fixes
+[33m2455c87[m fix: show help on invalid CLI commands and debounce watch rebuilds
+[33m455985f[m docs: add Node.js requirement, footnotes, and Obsidian plugin support table
+[33m601f23f[m chore: update quartz.lock.json with latest plugin commits
+[33m6b3c72d[m docs: pre-release documentation fixes
+[33m0d9b356[m fix: resolve client-side navigation and popover issues
+[33m7f00400[m fix: improve CLI error handling and user guidance
+[33mcaa5503[m fix: harden core build system against silent failures
+[33m17aa8ab[m chore: updated plugins
+[33mbdc3347[m chore: updated plugins
+[33mdfde22a[m feat: emit plugin scripts individually instead of bundling into postscript
+[33mb1e5d3a[m test: add regression tests for transclusion changes
+[33m4d71577[m fix: properly handle multiple transclusions
