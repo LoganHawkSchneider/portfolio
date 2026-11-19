@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+publish: true
+permalink: index
+title: Engineering & IT Portfolio
+created: 2026-11-19T05:31:57.263Z
+modified: 2026-11-19T05:54:55.707Z
 ---
-
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
