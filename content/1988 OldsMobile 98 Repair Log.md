@@ -3,7 +3,7 @@ publish: true
 title: Project Title
 description: One-sentence summary shown in link previews and Quartz folder listings.
 created: 2026-11-23
-modified: 2026-11-23T21:59:15.348Z
+modified: 2026-11-23T22:17:30.780Z
 tags:
   - project
   - oldsmobile-98
@@ -57,4 +57,4 @@ Describe the root issue, symptom, or functional requirement here. What failed, o
 
 ## Media & Wiring / Schematics
 
-- ![[placeholder-image.png]]
+- Broken Strut![[assets/BrokenRearStrut.jpg]]
